@@ -52,9 +52,9 @@ The Conversational Retrieval Chain is ideal for chatbots that track conversation
    cd AIDocumentAssistant
    ```  
 
-2. Add your API key to a `.env` file:  
+2. Add your GROQ API key to a `.env` file:  
    ```env
-   OPENAI_API_KEY=<your_openai_api_key>
+   GROQ_API_KEY=<your_openai_api_key>
    ```  
 
 3. (Optional) Create a virtual environment:  
@@ -77,7 +77,7 @@ The Conversational Retrieval Chain is ideal for chatbots that track conversation
 
 ---
 
-### Summary of RAG Workflow in AIDocumentAssistant  
+### Summary of RAG Workflow in AI DocumentAssistant  
 1. **Data Ingestion**: Load and split documents using LangChain.  
 2. **Storage**: Convert chunks into embeddings and store them in a VectorStore.  
 3. **Query Processing**: Embed user queries and retrieve relevant chunks.  
