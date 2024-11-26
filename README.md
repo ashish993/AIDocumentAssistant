@@ -54,7 +54,7 @@ The Conversational Retrieval Chain is ideal for chatbots that track conversation
 
 2. Add your GROQ API key to a `.env` file:  
    ```env
-   GROQ_API_KEY=<your_openai_api_key>
+   GROQ_API_KEY=<your_groq_api_key>
    ```  
 
 3. (Optional) Create a virtual environment:  
