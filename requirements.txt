@@ -15,7 +15,7 @@ langchain-community    # Community components for LangChain
 langchain-huggingface  # Hugging Face integration
 langchain-text-splitters  # Text splitting utilities
 #langchain-memory       # Memory management for LangChain
-langchain-prompts      # Prompt management for LangChain
+#langchain-prompts      # Prompt management for LangChain
 
 # Vector Storage and Embeddings
 faiss-cpu              # Vector similarity search
