@@ -1,6 +1,6 @@
 # Document Processing Libraries
 PyPDF2                  # PDF file processing
-python-docx2txt         # DOCX file processing
+docx2txt                # DOCX file processing
 
 # Streamlit UI Components
 streamlit               # Web application framework
