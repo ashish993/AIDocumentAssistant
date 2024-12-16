@@ -23,7 +23,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Get groq_api_key from environment variable
-groq_api_key = "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"
+groq_api_key = st.secrets["groq_api_key"]
 
 def initialize_session_state():
     try:
